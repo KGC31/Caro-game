@@ -1,4 +1,5 @@
-      for playing music.
+This program is created by Nguyen Viet Kim - IT student of HCMUS for Introduction to Programming project.
+This project includes 7 files and 1 music .wav file for playing music.
 
 Caro.cpp is the main file for running game starting effect and open menu for players
 
