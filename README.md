@@ -17,4 +17,4 @@ How to play.cpp: This file includes codes to display designed HOW TO PLAY and sh
 
 Settings.cpp: players can choose Light or Dark theme and they can turn the music on or off.
 
-Windows_funtions.cpp: windows functions for drawing board, changing colors and play music in C++.
+Windows_funtions.cpp: windows functions for drawing board, changing colors, playing music and other functions in C++.
