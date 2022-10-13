@@ -48,5 +48,5 @@ Further desciptions of function uses are commented in each files, at the top of 
 </figure>
 
 <h3>III. References:</h3>
-<a href="https://codelearn.io/sharing/windowsh-va-ham-dinh-dang-console-p1" target="_blank">Windows.h and console formatting function - part 1(Codelearn.io).</a>
+<a href="https://codelearn.io/sharing/windowsh-va-ham-dinh-dang-console-p1" target="_blank">Windows.h and console formatting function - part 1(Codelearn.io).</a><br/>
 <a href="https://codelearn.io/sharing/windowsh-ham-dinh-dang-noi-dung-console" target="_blank">Windows.h and content formatting functions - part 2(Codelearn.io).</a>
