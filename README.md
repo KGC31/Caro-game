@@ -1,20 +1,35 @@
-This program is created by Nguyen Viet Kim - IT student of HCMUS for Introduction to Programming project.
-This project includes 7 files and 1 music .wav file for playing music.
+<h1>CARO GAME - HCMUS PROGRAMMING TECHNIQUE PROJECT</h1>
 
-Caro.cpp is the main file for running game starting effect and open menu for players
+<h3>I. Introduction:</h3>
+<p>
+<i>Caro game</i> (<i>Tic Tac Toe</i> in American English) is a two-player game that can be traced back to ancient Egypt dating from around 1300 BC, where similar board found on roofing tiles. An early variant of the game called <i>terni lapilli</i> was played during the Roman Empire, around the first century BC. Other related game are <i>three men's morris</i> and <b>Puebloans</b> game, <i>Picaria</i>.
+</p>
 
-Main menu.cpp is codes for displaying main menu and it's interaction with players.
-Main menu contains 4 choices: Play game, How to play, Settings and Exit.
+<p>
+<i>Caro game</i> is played on ten-by-ten grid (three-by-three for <i>Tic Tac Toe</i>) with two symbols are <i>X</i> and <i>O</i>, representing player 1 and player 2 moves on the board. Players take turns to make their moves on the board, who ever has <b>five-in-a-row</b> horizontal, vertical or diagonal first is the winner. If the board is full and there is no winner, that game will be a <i>tie-game</i>.
+</p>
 
-Gameplay.cpp: The program includes 2 stages: Enter name and Gameplay.
-Two players will enter their name before they start a new game. Player's name will be displayed on the box next to the game board.
-Players use arrow keys to move and use ENTER to make a move. The first player is x and the second player is o.
-On the box there will be player's name, moves they made and after the game is finished, players will be given 3 choices: Play again, Return to menu or Exit.
+<p>
+This is a HCMUS programming project of Programming Technique, written in C++ by 21127333-Nguyen Viet Kim, student of class 21CLC08.
+</p>
+<h3>II. Desciption:</h3>
 
-Win_check.cpp: algorithm for checking if there's a player win the game in vertical, horizontal, back slash and forwar slash line of 5.
+<h4>II.1. Files organization:</h4>
+<p>
+<i>Caro game</i> project includes 7 .cpp files for different sections of functions:
+</p>
+<ul>
+  <li><b>Caro.cpp</b>: Includes <i>Loading...</i> animation and main function in which console-formatting functions are deployed in order to format console window, play music and display main menu.</li>
+  <li><b>Main menu.cpp</b>: Display game's text logo and menu for users to choose. This includes: <i>Play Game, How to play, Settings</i> and <i> Exit.</i></li>
+  <li><b>Gameplay.cpp</b>: This file contains login function, game board generating function, sideboard generating function, cursor move function, after-game menu function, and is connected with <i>Win_check.cpp</i> for checking winning condition.</li>
+  <li><b>Win_check.cpp</b>: This is where line checking functions are placed to check if there is a winner. It includes functions for checking horizontal, vertical and diagonal line of five. The main checking function return true if there is a winner, false on the other hand, and send the result to Gameplay function.</li>
+  <li><b>How to play.cpp</b>: Display HOW TO PLAY text and instructions for playing.</li>
+  <li><b>Settings.cpp</b>: Display SETTINGS text and give players option of theme(dark/ light mode) and music(on/ off).</li>
+  <li><b>Windows functions.cpp</b>: Contains function that used for resizing console window, actions with cursor and changing text's color.</li>
+</ul>
+<p>
+Further desciptions of function uses are commented in each files, at the top of each function.
+</p>
 
-How to play.cpp: This file includes codes to display designed HOW TO PLAY and show players how they can win the game.
-
-Settings.cpp: players can choose Light or Dark theme and they can turn the music on or off.
-
-Windows_funtions.cpp: windows functions for drawing board, changing colors, playing music and other functions in C++.
+<h4>II.2. Game preview:</h4>
+![Screenshot (165)](https://user-images.githubusercontent.com/114214103/195540071-65dc23a8-e3c6-4e6c-b549-8e1178119245.png)
