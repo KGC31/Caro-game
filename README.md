@@ -32,4 +32,21 @@ Further desciptions of function uses are commented in each files, at the top of 
 </p>
 
 <h4>II.2. Game preview:</h4>
-![Screenshot (165)](https://user-images.githubusercontent.com/114214103/195540071-65dc23a8-e3c6-4e6c-b549-8e1178119245.png)
+<figure>
+  <figcaption><i>Loading animation at the beginning</i></figcaption>
+  <img src="https://user-images.githubusercontent.com/114214103/195540071-65dc23a8-e3c6-4e6c-b549-8e1178119245.png" alt="Loading animation">
+  <figcaption><i>Main menu</i></figcaption>
+  <img src="https://user-images.githubusercontent.com/114214103/195545299-af88cfff-0258-497b-a1b2-f0a156b54cfd.png" alt="Main menu">
+  <figcaption><i>Enter player's name</i></figcaption>
+  <img src="https://user-images.githubusercontent.com/114214103/195546943-6f58438b-0ce8-4ca6-b4ea-8b08bd22f31c.png" alt="Player's name">
+  <figcaption><i>Gameplay</i></figcaption>
+  <img src="https://user-images.githubusercontent.com/114214103/195549011-9b10b2f9-d6ad-4cce-b7b1-17b1a9fd1f74.png" alt="Gameplay">
+  <figcaption><i>How to play</i></figcaption>
+  <img src="https://user-images.githubusercontent.com/114214103/195549803-1cc6234e-b346-42fc-a9f8-a66bcf10aa54.png" alt="How to play">
+  <figcaption><i>Settings</i></figcaption>
+  <img src="https://user-images.githubusercontent.com/114214103/195550715-f0f9ca9c-1571-4f82-8774-9bc54d61af39.png" alt="Settings">
+</figure>
+
+<h3>III. References:</h3>
+<a href="https://codelearn.io/sharing/windowsh-va-ham-dinh-dang-console-p1" target="_blank">Windows.h and console formatting function - part 1(Codelearn.io).</a>
+<a href="https://codelearn.io/sharing/windowsh-ham-dinh-dang-noi-dung-console" target="_blank">Windows.h and content formatting functions - part 2(Codelearn.io).</a>
